@@ -30,7 +30,7 @@ id="cordova-plugin-transport-security"
     <repo>https://github.com/wingz-inc/cordova-plugin-transport-security.git</repo>
 
     <platform name="ios">
-      <config-file target="Wingz Driver-Info.plist" parent="NSAppTransportSecurity">
+      <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
         <dict>
           <key>NSAllowsArbitraryLoads</key>
           <true/>
